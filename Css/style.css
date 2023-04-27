@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    box-sizing: border-box;
+}
+.navbar{
+width: 100%;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+nav ul li a{
+  color: #fff;
+  font-weight: 700;
+
+}
+/*----------------------------------------- Nav Sticky -----------------------------------------------------*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  animation: fadeInDown 0.4s;
+}
+.content {
+  margin-top: 70px; /* Change this to the height of your navbar */
+}
+
+@keyframes fadeInDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+    .parent {
+        position: relative;
+        width: 100%;
+        height: 150vh;
+        background-image: url("../images/firstPage.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      .child {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 80vh;
+        padding: 20px;
+      }
+      .title1 {
+        letter-spacing: 1px;
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+        font-weight: 500;
+      }
+      .name {
+        font-size: 3rem;
+        letter-spacing: 1px;
+        margin-bottom: 3px;
+        font-weight: 600;
+      }
+      .role {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+      }
+      .role span {
+        color: #ff5f9e;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .short-description{
+        margin-top: 20px;
+        font-size: 22px;
+        width: 70%;
+        margin-bottom: 1rem;
+      }
+      .hire-button:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      .hire-button {
+        margin-top: 12px;
+        display: inline-block;
+        padding: 10px 30px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+      }
+      .hire-button a {
+        color: #fff;
+        text-decoration: none;
+        border-radius: 10px;
+      }
+      /*------------------------------------------ Introduction to the profile Part ---------------------------------------------------------*/
+      .profile {
+        padding: 5% 10%;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      .profile-image {
+        margin: 10px auto;
+        border-radius: 50%;
+        height: 15rem;
+      }
+      .secondIntro {
+        font-size: 1.3rem;
+        text-align: left;
+        width: 70%;
+        margin:10px auto;
+        color: #40513b;
+      }
+      button {
+        display: inline-block;
+        padding: 10px 30px;
+        background-color: #f00;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 5px
+      }
+      .hire-button:hover {
+        background-color: #0069d9;
+        cursor: pointer;
+      }
+      .cv-button a {
+        color: #fff;
+        text-decoration: none;
+        border-radius: 10px;
+      }
+      /*----------------------------------------------- Skills Part --------------------------------------------------*/
+      .skills {
+        padding: 7% 15%;
+      }
+      .skills h2 {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .skills ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .skills li {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        color: #555;
+        padding: 20px;
+        margin: 10px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        transform: translateY(-10px);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      }
+      .skills li:hover {
+        /* background-color: #333; */
+        /* color: #fff; */
+        /* border-color: #333; */
+        cursor: pointer;
+      }
+      /*=================================================== Projects Part =============================*/
+      /* .Projects {
+        padding: 5%;
+        margin: 50px auto;  
+        max-width: 1200px; 
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        border-radius: 10px;
+      
+      }
+      .project {
+        background-color: #fff;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 20px;
+        transition: all 0.3s ease-in-out;
+        transform: translateY(-10px);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+        
+      }
+      .H1Project {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .project img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      
+      .project h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .project p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+        .project a {
+          display: inline-block;
+          background-color: #333;
+          color: #fff;
+          text-decoration: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          transition: background-color 0.2s;
+          text-align: center;
+         
+        }
+      .projects:hover {
+        background-color: #f00;
+        transform: translateY(-10px);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+      }
+      .project a:hover {
+        background-color: #f10000;
+        color: #333;
+        border: 2px solid #333;
+      }
+      .Project2{
+        text-align: left;
+      }
+
+      /* --------------------------------------------Service Part------------------------------------------------------------- */
+/* Services section */
+.services {
+  background-color: #f7f7f7;
+  margin:10px;
+  padding: 80px 0;
+}
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.serv-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card{
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin-bottom: 30px;
+  transition: box-shadow 0.5s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.box {
+  padding: 20px;
+  text-align: center;
+}
+
+.box i {
+  font-size: 48px;
+  margin-bottom: 20px;
+  display: block;
+  color: #c0392b;
+}
+
+.box .text {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.box p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+
+      /* -------------------------------------------- Contact Me Part -------------------------------------------- */ 
+      .map-container-section {
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+      }
+      .map-container-section iframe {
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+      }
+      .address{
+        margin-top: 50px;
+      }
+      /*----------------------------------------- Footer Part --------------------------------------------------------*/
+      #footer{
+        padding:3% 15%;
+        text-align: center;
+    }
+    .footer-icon{
+        margin: 20px 10px;
+    } 
+
+   /*----------------------------------------------------- Media Part ------------------------------------------------------------ */
+
+   /* Media queries for small devices */
+@media only screen and (max-width: 767px) {
+  .parent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .child {
+    text-align: center;
+  }
+  .short-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .profile {
+    margin-top: 30px;
+  }
+}
+
+/* Media queries for medium devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .parent {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .child {
+    text-align: center;
+  }
+  .short-description {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .profile {
+    margin-top: 0;
+  }
+}
+
+/* Media queries for large devices */
+@media only screen and (min-width: 992px) {
+  .parent {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .child {
+    text-align: left;
+  }
+  .short-description {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .profile {
+    margin-top: 0;
+  }
+}
+/* -------------------------------------------------------------------------------------------------- */
