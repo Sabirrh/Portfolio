@@ -271,6 +271,7 @@ nav ul li a{
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
+  font-weight:bold;
 }
 .serv-content{
   display: flex;
