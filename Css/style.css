@@ -40,7 +40,7 @@ nav ul li a{
   animation: fadeInDown 0.4s;
 }
 .content {
-  margin-top: 70px; /* Change this to the height of your navbar */
+  margin-top: 70px;
 }
 
 @keyframes fadeInDown {
@@ -188,78 +188,9 @@ nav ul li a{
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
       }
       .skills li:hover {
-        /* background-color: #333; */
-        /* color: #fff; */
-        /* border-color: #333; */
         cursor: pointer;
       }
-      /*=================================================== Projects Part =============================*/
-      /* .Projects {
-        padding: 5%;
-        margin: 50px auto;  
-        max-width: 1200px; 
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
-        border-radius: 10px;
-      
-      }
-      .project {
-        background-color: #fff;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        margin: 20px;
-        transition: all 0.3s ease-in-out;
-        transform: translateY(-10px);
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-        
-      }
-      .H1Project {
-        font-size: 36px;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 50px;
-      }
-      .project img {
-        width: 100%;
-        border-radius: 10px;
-        margin-bottom: 20px;
-      }
-      
-      .project h2 {
-        font-size: 24px;
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-      .project p {
-        font-size: 18px;
-        margin-bottom: 20px;
-      }
-        .project a {
-          display: inline-block;
-          background-color: #333;
-          color: #fff;
-          text-decoration: none;
-          padding: 10px 20px;
-          border-radius: 5px;
-          transition: background-color 0.2s;
-          text-align: center;
-         
-        }
-      .projects:hover {
-        background-color: #f00;
-        transform: translateY(-10px);
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-      }
-      .project a:hover {
-        background-color: #f10000;
-        color: #333;
-        border: 2px solid #333;
-      }
-      .Project2{
-        text-align: left;
-      }
-
+     
       /* --------------------------------------------Service Part------------------------------------------------------------- */
 /* Services section */
 .services {
@@ -352,8 +283,6 @@ nav ul li a{
     } 
 
    /*----------------------------------------------------- Media Part ------------------------------------------------------------ */
-
-   /* Media queries for small devices */
 @media only screen and (max-width: 767px) {
   .parent {
     flex-direction: column;
@@ -371,7 +300,6 @@ nav ul li a{
   }
 }
 
-/* Media queries for medium devices */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .parent {
     flex-direction: row;
@@ -390,7 +318,6 @@ nav ul li a{
   }
 }
 
-/* Media queries for large devices */
 @media only screen and (min-width: 992px) {
   .parent {
     flex-direction: row;
