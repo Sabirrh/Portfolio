@@ -5,6 +5,8 @@
 body {
   transform: scale(0.9);
   transform-origin: 0 0;
+  width: 111.11%; 
+  height: 111.11%; 
 }
 .header{
     box-sizing: border-box;
