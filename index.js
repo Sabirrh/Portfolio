@@ -21,25 +21,6 @@ function stickyNavbar() {
 window.onscroll = function() {
   stickyNavbar();
 };
-
-
- // ------------------------Smtp --------------------------//
-
-//  function sendEmail(){
-//   Email.send({
-//     Host : "smtp.elasticemail.com",
-//     Username : "sabirrh12@gmail.com",
-//     Password : "password",
-//     To : 'sabirrh12@gmail.com',
-//     From : document.getElementById("email").value,
-//     Subject : "This is the subject",
-//     Body : "Name:" +document.getElementById("form-name").value
-//     + "<br> Email:" +document.getElementById("form-email").value
-//     +"<br> Message:" +document.getElementById("form-text").value,
-// }).then(
-//   message => alert("Thanks For Your Interest! Successfully Submitted")
-// );
-// }
     //-------------------------------------- EmailJS ------------------------------//
 function sendEmail(event) {
   event.preventDefault();
@@ -68,22 +49,23 @@ function sendEmail(event) {
       }
     );
 }
-var type="text/javascript">
-    function setZoom() {
-     // Check if the 'style' property exists in the 'document.body' object
-     if ('style' in document.body) {
-             document.body.style.zoom = "90%";
-         } else {
-                // Fallback for browsers that don't support 'style.zoom'
-                // You can use CSS transform as a fallback
-            document.body.style.transform = "scale(0.9)";
-            document.body.style.transformOrigin = "0 0";
-            document.body.style.width = "111.11%"; /* (1 / 0.9) = 111.11% */
-            document.body.style.height = "111.11%"; /* (1 / 0.9) = 111.11% */
-            document.body.style.overflow = "hidden";
-          }
-    }
-        // Call the 'setZoom' function when the page is fully loaded
-        window.onload = setZoom;
+// ---------------------------------------------------------------------------------------
+// var type="text/javascript">
+//     function setZoom() {
+//      // Check if the 'style' property exists in the 'document.body' object
+//      if ('style' in document.body) {
+//              document.body.style.zoom = "85%";
+//          } else {
+//                 // Fallback for browsers that don't support 'style.zoom'
+//                 // You can use CSS transform as a fallback
+//             document.body.style.transform = "scale(0.9)";
+//             document.body.style.transformOrigin = "0 0";
+//             document.body.style.width = "111.11%"; /* (1 / 0.9) = 111.11% */
+//             document.body.style.height = "111.11%"; /* (1 / 0.9) = 111.11% */
+//             document.body.style.overflow = "hidden";
+//           }
+//     }
+//         // Call the 'setZoom' function when the page is fully loaded
+//         window.onload = setZoom;
   
   
