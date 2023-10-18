@@ -2,12 +2,6 @@
     margin: 0;
     padding: 0;
 }
-/* body {
-  transform: scale(0.9);
-  transform-origin: 0 0;
-  width: 111.11%; 
-  height: 111.11%; 
-} */
 .header{
     box-sizing: border-box;
 }
@@ -97,6 +91,7 @@ nav ul li a{
         font-family: 'Open Sans', sans-serif;
       }
       .short-description{
+        text-align: left;
         margin-top: 20px;
         font-size: 22px;
         width: 70%;
@@ -194,7 +189,6 @@ nav ul li a{
       }
      
       /* --------------------------------------------Service Part------------------------------------------------------------- */
-/* Services section */
 .services {
   background-color: #f7f7f7;
   margin:10px;
@@ -255,10 +249,7 @@ nav ul li a{
     width: 100%;
   }
 }
-
-
-
-      /* -------------------------------------------- Contact Me Part -------------------------------------------- */ 
+/* -------------------------------------------- Contact Me Part -------------------------------------------- */ 
       .map-container-section {
         overflow:hidden;
         padding-bottom:56.25%;
