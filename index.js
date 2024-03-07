@@ -4,13 +4,8 @@ var typed = new Typed(".typing" ,{
     backSpeed:90,
     loop:true
 });
-// Get the navbar
 var navbar = document.querySelector("nav");
-
-// Get the offset position of the navbar
 var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function stickyNavbar() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
@@ -49,23 +44,4 @@ function sendEmail(event) {
       }
     );
 }
-// ---------------------------------------------------------------------------------------
-// var type="text/javascript">
-//     function setZoom() {
-//      // Check if the 'style' property exists in the 'document.body' object
-//      if ('style' in document.body) {
-//              document.body.style.zoom = "85%";
-//          } else {
-//                 // Fallback for browsers that don't support 'style.zoom'
-//                 // You can use CSS transform as a fallback
-//             document.body.style.transform = "scale(0.9)";
-//             document.body.style.transformOrigin = "0 0";
-//             document.body.style.width = "111.11%"; /* (1 / 0.9) = 111.11% */
-//             document.body.style.height = "111.11%"; /* (1 / 0.9) = 111.11% */
-//             document.body.style.overflow = "hidden";
-//           }
-//     }
-//         // Call the 'setZoom' function when the page is fully loaded
-//         window.onload = setZoom;
-  
   
